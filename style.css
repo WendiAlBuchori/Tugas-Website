@@ -271,6 +271,55 @@ body {
     cursor: pointer;
 }
 
+/* Footer */
+footer {
+  background-color: #b88657; /* warna cokelat seperti gambar */
+  padding: 1rem 0 3rem; /* top right bottom left */
+  text-align: center;
+  color: white;
+}
+
+
+
+footer .socials {
+    padding: 1rem 0;
+    
+}
+
+footer .socials a {
+    color: #fff;
+    padding: 1rem;
+}
+
+
+
+footer .socials a :hover,
+footer .links a :hover, {
+    color: var(--bg);
+}
+
+footer .links {
+    margin-bottom: 1.4rem;
+}
+
+footer .links a {
+    color: #fff;
+    padding: 0.7rem 1rem;
+}
+
+footer .credit {
+    font-size: 0.8rem;
+}
+
+footer .credit a {
+    color: var(--bg);
+    font-weight: 700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 /* Media Queries */
 
 /* Laptop */
